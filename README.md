@@ -23,7 +23,7 @@ A trunk link connects the switch to a router.
 
 The router uses subinterfaces to route traffic between VLANs while allowing multiple VLANs to share one physical router interface.
 
-![VLAN and Inter-VLAN Routing Topology](vlan-inter-vlan-topology.png)
+![VLAN and Inter-VLAN Routing Topology](vlan%20topology.png)
 
 ## VLAN Configuration
 
