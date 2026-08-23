@@ -180,13 +180,6 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 * Layer 3 routing
 * Network troubleshooting
 
-## Project Outcomes
-
-* Created and configured multiple VLANs on a Cisco Layer 2 switch.
-* Assigned switch access ports to specific VLANs.
-* Configured an 802.1Q trunk between the switch and router.
-
-
 ## Verification Screenshots
 
 ### Inter-VLAN Connectivity
@@ -228,3 +221,15 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 ### Full VLAN Topology
 
 ![Full VLAN Topology](screenshots/vlan-topology.png)
+
+
+## Project Outcomes
+
+- Created and configured VLAN 10, VLAN 20, and VLAN 30.
+- Assigned switch access ports to the correct VLANs.
+- Configured an 802.1Q trunk between the switch and router.
+- Configured router subinterfaces for each VLAN.
+- Implemented router-on-a-stick for inter-VLAN routing.
+- Verified trunking, VLAN membership, subinterface status, and inter-VLAN connectivity.
+
+
