@@ -225,6 +225,8 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 - Assigned switch access ports to the correct VLANs.
 - Configured an 802.1Q trunk between the switch and router.
 - Configured router subinterfaces for each VLAN.
+- Implemented router-on-a-stick for inter-VLAN routing.
+- Verified trunking, VLAN membership, subinterface status, and inter-VLAN connectivity.
 
 ## Troubleshooting & Verification
 
