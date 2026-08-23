@@ -181,10 +181,6 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 
 ## Verification Screenshots
 
-### Full VLAN Topology
-
-![Full VLAN Topology](screenshots/vlan%20topology.png)
-
 ### VLAN Membership
 
 ![Show VLAN Brief](screenshots/show-vlan-brief.png)
