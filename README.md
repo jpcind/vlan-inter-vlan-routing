@@ -218,10 +218,6 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 
 ![VLAN Client IP Configuration](screenshots/vlan-client-ipconfig.png)
 
-### Full VLAN Topology
-
-![Full VLAN Topology](screenshots/vlan-topology.png)
-
 
 ## Project Outcomes
 
@@ -229,6 +225,14 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 - Assigned switch access ports to the correct VLANs.
 - Configured an 802.1Q trunk between the switch and router.
 - Configured router subinterfaces for each VLAN.
+
+## Troubleshooting & Verification
+
+- Used `show vlan brief` to verify VLAN creation and access-port assignments.
+- Used `show interfaces trunk` to verify the trunk link was operational.
+- Used `show ip interface brief` to confirm router subinterfaces were up.
+- Used `show running-config` to verify 802.1Q encapsulation and switchport configuration.
+- Used `ping` between hosts in different VLANs to confirm inter-VLAN routing.
 - Implemented router-on-a-stick for inter-VLAN routing.
 - Verified trunking, VLAN membership, subinterface status, and inter-VLAN connectivity.
 
