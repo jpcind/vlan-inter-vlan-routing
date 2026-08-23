@@ -183,6 +183,7 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 ## Verification Screenshots
 
 ### Inter-VLAN Connectivity
+from 192.168.10.11
 
 ![Inter-VLAN Ping](screenshots/inter-vlan-ping.png)
 
