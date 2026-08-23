@@ -235,7 +235,5 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 - Used `show ip interface brief` to confirm router subinterfaces were up.
 - Used `show running-config` to verify 802.1Q encapsulation and switchport configuration.
 - Used `ping` between hosts in different VLANs to confirm inter-VLAN routing.
-- Implemented router-on-a-stick for inter-VLAN routing.
-- Verified trunking, VLAN membership, subinterface status, and inter-VLAN connectivity.
 
 
