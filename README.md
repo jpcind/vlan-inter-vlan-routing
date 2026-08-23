@@ -15,6 +15,14 @@ The lab includes:
 * Default gateway configuration
 * Cisco IOS verification and troubleshooting
 
+## Packet Tracer Lab File
+
+The complete Cisco Packet Tracer lab is included in this repository:
+
+`VLAN.pkt`
+
+The file can be opened in Cisco Packet Tracer to inspect the VLAN configuration, trunk link, router subinterfaces, and inter-VLAN routing.
+
 ## Network Topology
 
 The network uses a Layer 2 switch connected to end devices in separate VLANs.
