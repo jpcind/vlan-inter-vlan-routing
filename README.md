@@ -181,21 +181,29 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 
 ## Verification Screenshots
 
-### Full VLAN Topology
+### Inter-VLAN Connectivity
 
-![Full VLAN Topology](screenshots/vlan-topology.png)
+![Inter-VLAN Ping](screenshots/inter-vlan-ping.png)
 
 ### Additional Topology View
 
 ![Additional VLAN Topology](screenshots/my-top.png)
 
-### VLAN Membership
+### Router-on-a-Stick Configuration
 
-![Show VLAN Brief](screenshots/show-vlan-brief.png)
+![Router-on-a-Stick Configuration](screenshots/router-on-a-stick-config.png)
+
+### Router Subinterfaces
+
+![Router Subinterfaces](screenshots/router-subinterfaces.png)
 
 ### Trunk Verification
 
 ![Show Interfaces Trunk](screenshots/show-interfaces-trunk.png)
+
+### VLAN Membership
+
+![Show VLAN Brief](screenshots/show-vlan-brief.png)
 
 ### Switch Access Port Configuration
 
@@ -205,20 +213,10 @@ Inter-VLAN connectivity is tested using `ping` between hosts in different VLANs.
 
 ![Switch Trunk Configuration](screenshots/switch-trunk-config.png)
 
-### Router Subinterfaces
-
-![Router Subinterfaces](screenshots/router-subinterfaces.png)
-
-### Router-on-a-Stick Configuration
-
-![Router-on-a-Stick Configuration](screenshots/router-on-a-stick-config.png)
-
-### Inter-VLAN Connectivity
-
-![Inter-VLAN Ping](screenshots/inter-vlan-ping.png)
-
 ### VLAN Client IP Configuration
 
 ![VLAN Client IP Configuration](screenshots/vlan-client-ipconfig.png)
-* Configured VLAN default gateways using router subinterface addresses.
-* Verified VLAN membership, trunk operation, router interfaces, and inter-VLAN connectivity using Cisco IOS commands.
+
+### Full VLAN Topology
+
+![Full VLAN Topology](screenshots/vlan-topology.png)
